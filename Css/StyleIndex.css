@@ -1,0 +1,12 @@
+.carousel-inner{
+    width: 100px;
+}
+
+.carousel{
+    margin-left: 200px;
+    margin-top: 0px;
+}
+
+.carousel-inner{
+    border: none;
+}

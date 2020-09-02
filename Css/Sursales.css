@@ -1,0 +1,122 @@
+h1{
+    font-family:Quicksand-bold;
+    font-size: 30px;
+    margin: 0px;
+
+}
+h2{
+    font-family: Quicksand-medium;
+    font-size: 25px;
+    margin: 0px;
+}
+pre{
+    font-family: Quicksand-Regular;
+}
+
+/*poder hacer el cuerpo*/
+header, .Main, footer{
+    width: 100%;
+    max-width: 3000px;
+    margin: auto auto 20px 50px;
+    font-family:Quicksand-bold ;
+}
+
+/*NAVEGADOR*/
+header nav{
+    background: #184096b2;
+    overflow: hidden;/*Oucltar el contenido de nuestro contenedor o limpiar los float left*/
+    margin: 20px;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    float: left;
+
+}
+
+header nav ul li a{
+    margin:  -15px 0px 0px 0px;
+    padding:10px 80px 10px 80px;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background: #375aa7b2;
+}
+/*FIN DEL NAVEGADOR*/
+/*Empieza el cuerpo*/
+.Main .Articulos{
+    width: 68.5%;
+    float: left;
+    margin-right: 1.5%;
+}
+
+.Main .Articulos article{
+    padding:20px;
+    background: rgba(119, 173, 235, 0.185);
+    margin-bottom: 20px;
+}
+
+
+
+footer{
+    background: #000000;
+    color:#ffffff;
+    clear: both;
+    text-align: center;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.refaciones{
+    width: 200px;
+    height:110px;
+    margin: 0px 10px 40px 0px;
+}
+
+.Texto{
+    position: absolute;
+    color: #ffffff;
+    font-family: Quicksand-medium;
+    font-size:30px;
+    top: 10px;
+    left: 10px;
+}
+
+.navbar{
+    box-shadow:2px 2px 5px #000000;
+    margin: 0px 0px 20px 0px;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: #10c2ee;
+    font-size: 20px;
+    font-family:Quicksand-bold ;
+}
+
+.main-header{
+    background: url(../Img/Transmiciones.jpeg);
+    background-size:cover;
+    min-height:500px ;
+    position: relative;
+}
+
+.imagene{
+    box-shadow: 2px 2px 5px #000000;
+}
+.background-overlay{
+    position: absolute;
+    background: rgba(48, 51, 107, 0.658);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
